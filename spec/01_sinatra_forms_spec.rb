@@ -1,4 +1,4 @@
-Sdescribe "FormsLab::App" do
+describe "FormsLab::App" do
   describe "GET '/'" do
     before(:each) do
       get '/'
