@@ -14,5 +14,5 @@ class Ship
   def self.all
     SHIPS
   end
-  binding.pry
+  
 end
