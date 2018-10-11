@@ -1,3 +1,4 @@
+require 'pry'
 class Ship
     attr_reader :name, :type, :booty
  
@@ -13,4 +14,5 @@ class Ship
   def self.all
     SHIPS
   end
+  binding.pry
 end
